@@ -32,7 +32,7 @@ nodemailer.createTestAccount((err,acc)=>{
       let mailOptions={
           from:"dummybadman@gmail.com",
           to: "johnchristian1899@gmail.com",
-          replyTo:"steamkenneth29@gmail.com",
+          replyTo:"johnchristian1899@gmail.com",
           subject: 'New Message',
           text: req.body.message,
           html: htmlEmail
