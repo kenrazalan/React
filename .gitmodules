@@ -1,0 +1,3 @@
+[submodule "portfolio-john"]
+	path = portfolio-john
+	url = https://github.com/kenrazalan/portfolio-john.git
