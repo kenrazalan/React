@@ -21,19 +21,20 @@ nodemailer.createTestAccount((err,acc)=>{
     `
 
     let transporter = nodemailer.createTransport({
-        host: "smtp.gmail.com",
-        port: 465,
-        secure: true, // true for 465, false for other ports
+        host: "smtp.ethereal.email",
+        port: 587,
+        secure: false, // true for 465, false for other ports
         auth: {
-          user: "dummybadman@gmail.com", 
-          pass: "09295089159", 
+          user: "barton27@ethereal.email", 
+          pass: "ksupz75FzxqMF4B1znj", 
         },
       });
       let mailOptions={
-          from:"dummybadman@gmail.com",
+          from:"barton27@ethereal.email",
           to: "johnchristian1899@gmail.com",
           replyTo:"johnchristian1899@gmail.com",
           subject: 'New Message',
+          
           text: req.body.message,
           html: htmlEmail
       }
