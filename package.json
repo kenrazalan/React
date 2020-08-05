@@ -23,6 +23,7 @@
     "nodemailer": "^6.4.11",
     "nodemon": "^2.0.4",
     "re-base": "^4.0.0",
-    "react-responsive-carousel": "^3.2.9"
+    "react-responsive-carousel": "^3.2.9",
+    "react-simple-image-slider": "^1.0.4"
   }
 }
